@@ -8,7 +8,7 @@
             <field name="priority">32</field>
             <field name="arch" type="xml">
                 <search string="Opportunities Analysis">
-                    <filter string="My Pipeline" name="my"
+                    <filter string="My Pipeline NEDI" name="my"
                             domain="[('user_id', '=', uid)]"/>
                     <separator/>
                     <filter name="lead" string="Leads" domain="[('type','=', 'lead')]" help="Show only lead" groups="crm.group_use_lead"/>
